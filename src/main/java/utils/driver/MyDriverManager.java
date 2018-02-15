@@ -18,7 +18,7 @@ public class MyDriverManager {
     private static DesiredCapabilities capabilities = new DesiredCapabilities();
 
 
-    private static void init() {
+    public static void init() {
         if (!isDriverInit) {
             ChromeDriverManager.getInstance().setup();
             isDriverInit = true;
