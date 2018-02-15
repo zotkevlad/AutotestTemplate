@@ -8,6 +8,6 @@ Project is created to use the next stack:
 * Appium (You should have installed appium server )
 * Selenoid (Selenoid should be installed and configured)
 * Allure
-* Lombook
+* Lombok
 
 Good luck!
