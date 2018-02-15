@@ -5,8 +5,8 @@ Project is created to use the next stack:
 
 Java
 Selenide
-Appium
-Selenoid
+Appium (You should have installed appium server )
+Selenoid (Selenoid should be installed and configured)
 Allure
 Lombook
 
