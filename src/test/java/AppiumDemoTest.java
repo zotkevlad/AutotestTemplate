@@ -12,10 +12,10 @@ import static com.codeborne.selenide.Selenide.open;
 public class AppiumDemoTest {
 
     @Features("Google search")
-    @Title("Google search test with Selenoid")
+    @Title("Google search test with Appium")
     @Test
     public void searchDemo(){
-        WebDriverRunner.setWebDriver(MyDriverManager.createCustomChromeAppiumDriver("http://127.0.0.1:4723/wd/hub", Thread.currentThread().getStackTrace()[1].getMethodName()));
+        WebDriverRunner.setWebDriver(MyDriverManager.createCustomChromeAppiumDriver("INSERT YOUR URL TO APPIUM SERVER HERE", Thread.currentThread().getStackTrace()[1].getMethodName()));
         com.codeborne.selenide.Configuration.browser = "chrome";
         open("http://google.com");
         new SearchPage().search("Appium")
