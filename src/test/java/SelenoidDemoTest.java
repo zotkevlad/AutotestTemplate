@@ -2,6 +2,7 @@ import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.junit4.DisplayName;
+//import org.junit.Test;
 import org.junit.Test;
 import pages.SearchPage;
 import utils.driver.MyDriverManager;
