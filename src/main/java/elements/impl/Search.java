@@ -16,7 +16,7 @@ public class Search implements ISearch<Search> {
     private final ElementsCollection listSearchResults;
 
     public Search() {
-        fieldSearch = $("#lst-ib");
+        fieldSearch = $("input[name=\"q\"]");
         blockSearchResult = $("#ires");
         listSearchResults = $$(".g .rc .r");
     }

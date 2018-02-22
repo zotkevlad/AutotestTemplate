@@ -9,7 +9,7 @@ public class SearchPage {
 
     private ISearch search = new Search();
 
-    @Step("Search {query}")
+    @Step("Search \"{query}\"")
     public SearchPage search(String query) {
         search.getFieldSearch().sendKeys(query);
         search.getFieldSearch().pressEnter();
@@ -17,7 +17,7 @@ public class SearchPage {
         return this;
     }
 
-    @Step("Verify test results contains {resultQuery}")
+    @Step("Verify test results contains \"{resultQuery}\"")
     public SearchPage verifyTestResultContainsString(String resultQuery) {
         search.getBlockSearchResult().shouldHave(new Text(resultQuery));
         return this;
