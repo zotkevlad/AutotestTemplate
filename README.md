@@ -1,7 +1,7 @@
 # AutotestTemplate
-It is template to fast start new automation testing project
+It is template to quick start new automation testing project
 
-Project is created to use the next stack:
+Project is created to use the next technology stack:
 
 * Java
 * Selenide
